@@ -10,7 +10,7 @@ var request = require('superagent');
 Promise.promisifyAll(request.Request.prototype);
 
 if(cluster.isMaster) {
-  setupWorkers(_.range(1372161, 1372261));
+  setupWorkers(_.range(process.argv[2], process.argv[3]));
 } else {
   process.on('message', function(grange) {
     worker(cluster.worker.id, grange);
