@@ -10,7 +10,7 @@ var request = require('superagent');
 Promise.promisifyAll(request.Request.prototype);
 
 if(cluster.isMaster) {
-  setupWorkers(_.range(1000030, 1160639));
+  setupWorkers(_.range(1372161, 1372261));
 } else {
   process.on('message', function(grange) {
     worker(cluster.worker.id, grange);
@@ -83,7 +83,7 @@ function parseEntry(html) {
   }
 
   return {
-    nome: info[0].split(' ')[1],
+    nome: info[0].split(' ').slice(1).join(' '),
     inscricao: info[0].split(' ')[0],
     cpf: info[1].split(' ')[1],
     rg: info[2].split(' ')[1],
