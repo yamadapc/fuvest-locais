@@ -1,8 +1,8 @@
 'use strict';
 var fs = require('fs');
-var os = require('os');
 var Promise = require('bluebird');
 var cheerio = require('cheerio');
+var colors = require('colors');
 var _ = require('lodash');
 var request = require('superagent');
 
@@ -13,31 +13,47 @@ var ALPHABET = _.map(_.range(97, 123), function(n) {
 });
 
 var completeResults = {};
+var pendingRequests = {};
 
-setInterval(function() {
-  console.log('[PERSISTING] Writing results to disk');
+var persistInterval = setInterval(function() {
+  console.log(
+    '[PERSISTING]'.yellow +
+    ' Writing results to disk (total = ' + _.size(completeResults) +
+    ', pending = ' + _.size(pendingRequests) + ')'
+  );
   fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
+  fs.writeFileSync('pending-requests.json', JSON.stringify(pendingRequests, null, 2));
 }, 1000);
 
 getAllPeople('', 141888)
-  .then(function(results) {
-    console.log(results);
+  .then(function(/*results*/) {
+    console.log('DONE'.green);
+    clearTimeout(persistInterval);
+    fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
+    process.exit(0);
   });
 
-function getAllPeople(startPrefix, knownLimit) {
+function getAllPeople(startPrefix/*, knownLimit */) {
   return Promise.map(ALPHABET, function(c) {
     var query = startPrefix + c;
     return makeQuery(query)
-      .catch(function(err) {
-        console.log('[ERROR] ' + err.message);
-        if(err.overflowingResults) {
-          return getAllPeople(query, err.overflowingResults);
-        }
-      });
+      .catch(handleError.bind(null, query));
   });
+
+  function handleError(query, err) {
+    console.log('[ERROR] '.red + err.message);
+    if(err.overflowingResults) {
+      return getAllPeople(query, err.overflowingResults);
+    }
+
+    console.log('[RETRY] '.blue + 'Retrying query ' + query);
+    return makeQuery(query).catch(handleError);
+  }
 }
 
 function makeQuery(q) {
+  pendingRequests[q] = true;
+
   return request
     .get('http://www.fuvest.br/b/locexa2f.php')
     .query({
@@ -46,7 +62,8 @@ function makeQuery(q) {
     })
     .endAsync()
     .then(function(res) {
-      console.log('[HTTP] http://www.fuvest.br/b/locexa2f.php?s=' + q);
+      delete pendingRequests[q];
+      console.log('[HTTP]'.magenta + ' http://www.fuvest.br/b/locexa2f.php?s=' + q);
       return parseResponse(q, res.text);
     });
 }
@@ -84,7 +101,7 @@ function parseResponse(q, html) {
   }, completeResults);
 
   console.log(
-    '[SUCCESS] ' + parsedResults.length + ' results at ' + q +
+    '[SUCCESS] '.green + parsedResults.length + ' results at ' + q +
     ' (total = ' + _.size(completeResults) + ')'
   );
 
