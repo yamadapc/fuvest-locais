@@ -16,7 +16,7 @@ var completeResults = {};
 
 setInterval(function() {
   console.log('[PERSISTING] Writing results to disk');
-  fs.appendFileSync('results.json', JSON.stringify(completeResults, null, 2));
+  fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
 }, 1000);
 
 getAllPeople('', 141888)
