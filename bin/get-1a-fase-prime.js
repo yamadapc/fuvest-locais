@@ -29,6 +29,7 @@ function getAllPeople(startPrefix, knownLimit) {
     var query = startPrefix + c;
     return makeQuery(query)
       .catch(function(err) {
+        console.log('[ERROR] ' + err.message);
         if(err.overflowingResults) {
           return getAllPeople(query, err.overflowingResults);
         }
