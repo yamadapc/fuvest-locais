@@ -21,9 +21,14 @@ var persistInterval = setInterval(function() {
     ' Writing results to disk (total = ' + _.size(completeResults) +
     ', pending = ' + _.size(pendingRequests) + ')'
   );
-  fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
-  fs.writeFileSync('pending-requests.json', JSON.stringify(pendingRequests, null, 2));
-}, 1000);
+
+  try {
+    fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
+    fs.writeFileSync('pending-requests.json', JSON.stringify(pendingRequests, null, 2));
+  } catch(err) {
+    console.log('[ERROR]'.red + err.message);
+  }
+}, 10000);
 
 getAllPeople('', 141888)
   .then(function(/*results*/) {
@@ -52,6 +57,12 @@ function getAllPeople(startPrefix/*, knownLimit */) {
 }
 
 function makeQuery(q) {
+  if(_.size(pendingRequests) > 50) {
+    console.log('[WAITING] '.yellow + 'More than 50 requests are pending; waiting 10s');
+    return wait(10000).then(function() {
+      return makeQuery(q);
+    });
+  }
   pendingRequests[q] = true;
 
   return request
@@ -113,4 +124,12 @@ function parseResponse(q, html) {
   );
 
   return parsedResults;
+}
+
+function wait(timeout) {
+  return new Promise(function(fulfill) {
+    setTimeout(function() {
+      fulfill();
+    }, timeout);
+  });
 }
