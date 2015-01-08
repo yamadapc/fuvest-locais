@@ -47,7 +47,7 @@ function getAllPeople(startPrefix/*, knownLimit */) {
     }
 
     console.log('[RETRY] '.blue + 'Retrying query ' + query);
-    return makeQuery(query).catch(handleError);
+    return makeQuery(query).catch(handleError.bind(null, query));
   }
 }
 
@@ -60,12 +60,19 @@ function makeQuery(q) {
       s: q,
       anofuv: 2015
     })
+    .timeout(50000)
     .endAsync()
-    .then(function(res) {
-      delete pendingRequests[q];
-      console.log('[HTTP]'.magenta + ' http://www.fuvest.br/b/locexa2f.php?s=' + q);
-      return parseResponse(q, res.text);
-    });
+    .then(
+      function(res) {
+        delete pendingRequests[q];
+        console.log('[HTTP]'.magenta + ' http://www.fuvest.br/b/locexa2f.php?s=' + q);
+        return parseResponse(q, res.text);
+      },
+      function(err) {
+        delete pendingRequests[q];
+        throw err;
+      }
+    );
 }
 
 function parseResponse(q, html) {
