@@ -1,0 +1,717 @@
+{
+  "1000008-1007853": {
+    "local": "001-FMU - FACULDADES METROPOLITANAS UNIDAS - CAMPUS MORUMBI",
+    "endereco": "AVENIDA MORUMBI, 501",
+    "bairro-cidade-cep": "MORUMBI, SÃO PAULO, 05607-000"
+  },
+
+  "1007878-1099022": {
+    "local": "002-COLÉGIO GUILHERME DUMONT VILLARES",
+    "endereco": "RUA GENERAL CAVALCANTI ALBUQUERQUE, 1010 (PORTÃO 3)",
+    "bairro-cidade-cep": "MORUMBI, SÃO PAULO, 05638-010"
+  },
+
+  "1121006-1145039": {
+    "local": "003-UNIVERSIDADE SÃO JUDAS - UNIDADE BUTANTÃ",
+    "endereco": "AVENIDA DR VITAL BRASIL, 1000",
+    "bairro-cidade-cep": "METRÔ BUTANTÃ, SÃO PAULO, 05503-001"
+  },
+
+  "1145046-1151420": {
+    "local": "004-COLÉGIO VITAL BRAZIL",
+    "endereco": "AVENIDA NOSSA SENHORA DA ASSUNÇÃO, 438",
+    "bairro-cidade-cep": "VILA BUTANTÃ, SÃO PAULO, 05359-000"
+  },
+
+  "1151437-1159163": {
+    "local": "005-USP - INSTITUTO DE MATEMÁTICA E ESTATÍSTICA",
+    "endereco": "RUA DO MATÃO, 1010",
+    "bairro-cidade-cep": "CID UNIVERSITÁRIA, SÃO PAULO, 05508-090"
+  },
+
+  "1159188-1170601": {
+    "local": "006-USP - FACULDADE DE ECONOMIA ADM E CONTABILIDADE",
+    "endereco": "AVENIDA PROF LUCIANO GUALBERTO, 908",
+    "bairro-cidade-cep": "CID UNIVERSITÁRIA, SÃO PAULO, 05508-010"
+  },
+
+  "1170619-1177108": {
+    "local": "007-USP - ESCOLA POLITÉCNICA - MECÂNICA",
+    "endereco": "AVENIDA PROF. MELLO DE MORAES, 2231",
+    "bairro-cidade-cep": "CID UNIVERSITÁRIA, SÃO PAULO, 05508-030"
+  },
+
+  "1177115-1192050": {
+    "local": "008-USP - ESCOLA POLITÉCNICA - CIVIL",
+    "endereco": "AVENIDA PROF ALMEIDA PRADO, TRAV 2, 83",
+    "bairro-cidade-cep": "CID UNIVERSITÁRIA, SÃO PAULO, 05508-070"
+  },
+
+  "1192067-1350407": {
+    "local": "009-USP - ESCOLA POLITÉCNICA - BIÊNIO",
+    "endereco": "AVENIDA PROF ALMEIDA PRADO, TRAV 2, 128",
+    "bairro-cidade-cep": "CID UNIVERSITÁRIA, SÃO PAULO, 05508-070"
+  },
+
+  "1372001-1380788": {
+    "local": "010-FUNDAÇÃO BRADESCO - UNIDADE I - CIDADE DE DEUS",
+    "endereco": "RUA MÁRIO MILANI, S/N",
+    "bairro-cidade-cep": "VILA CAMPESINA, OSASCO, 06029-900"
+  },
+
+  "1380795-1390138": {
+    "local": "011-FAC-FITO - FACULDADE DE CIÊNCIAS",
+    "endereco": "AVENIDA DAS FLORES, 711",
+    "bairro-cidade-cep": "JARDIM DAS FLORES, OSASCO, 06110-100"
+  },
+
+  "1390145-1511134": {
+    "local": "012-COLÉGIO FERNÃO DIAS PAIS - OSASCO",
+    "endereco": "RUA EUCLIDES DA CUNHA, 70",
+    "bairro-cidade-cep": "CENTRO, OSASCO, 06016-030"
+  },
+
+  "1533006-1632036": {
+    "local": "013-FACULDADE NOSSA CIDADE - FNC",
+    "endereco": "AVENIDA FRANCISCO PIGNATARI, 630",
+    "bairro-cidade-cep": "VILA GUSTAVO FERREIRA, CARAPICUÍBA, 06310-390"
+  },
+
+  "1654004-1663761": {
+    "local": "014-PUC - CAMPUS BARUERI",
+    "endereco": "AVENIDA SEBASTIÃO DAVINO DOS REIS, 786",
+    "bairro-cidade-cep": "JARDIM TUPANCI, BARUERI, 06414-007"
+  },
+
+  "1663779-1753059": {
+    "local": "015-UNIP - CAMPUS ALPHAVILLE",
+    "endereco": "AVENIDA YOJIRO TAKAOKA, 3500",
+    "bairro-cidade-cep": "CENTRO, SANTANA DE PARNAÍBA, 06500-000"
+  },
+
+  "1775002-1788494": {
+    "local": "016-UNINOVE - CAMPUS VILA MARIA -ANDARES 3 E 4",
+    "endereco": "RUA GUARANÉSIA, 425",
+    "bairro-cidade-cep": "VILA MARIA, SÃO PAULO, 02112-000"
+  },
+
+  "1788505-1801828": {
+    "local": "017-UNINOVE - CAMPUS VILA MARIA -ANDARES 5 E 6",
+    "endereco": "RUA GUARANÉSIA, 425",
+    "bairro-cidade-cep": "VILA MARIA, SÃO PAULO, 02112-000"
+  },
+
+  "1801835-1944178": {
+    "local": "018-UNIP - CAMPUS SANTANA",
+    "endereco": "RUA AMAZONAS DA SILVA, 737",
+    "bairro-cidade-cep": "VILA GUILHERME, SÃO PAULO, 02051-001"
+  },
+
+  "1966018-2065076": {
+    "local": "019-UNINOVE - CAMPUS VILA MARIA -ANDARES 1 E 2",
+    "endereco": "RUA GUARANÉSIA, 425",
+    "bairro-cidade-cep": "VILA MARIA, SÃO PAULO, 02112-000"
+  },
+
+  "2087005-2103897": {
+    "local": "020-UNIP - CAMPUS PINHEIROS",
+    "endereco": "RUA PADRE CARVALHO, 566",
+    "bairro-cidade-cep": "PINHEIROS, SÃO PAULO, 05427-020"
+  },
+
+  "2103908-2226309": {
+    "local": "021-UMC - CAMPUS VILLA LOBOS",
+    "endereco": "AVENIDA IMPERATRIZ LEOPOLDINA, 550",
+    "bairro-cidade-cep": "VILA LEOPOLDINA, SÃO PAULO, 05305-000"
+  },
+
+  "2248000-2264822": {
+    "local": "022-PUC - MINISTRO GODOY",
+    "endereco": "RUA MINISTRO GODOY, 969",
+    "bairro-cidade-cep": "PERDIZES, SÃO PAULO, 05015-901"
+  },
+
+  "2264830-2347182": {
+    "local": "023-PUC - BARTIRA",
+    "endereco": "RUA BARTIRA, 408",
+    "bairro-cidade-cep": "PERDIZES, SÃO PAULO, 05009-000"
+  },
+
+  "2369008-2385546": {
+    "local": "024-FACULDADES OSWALDO CRUZ  - PRÉDIO 2",
+    "endereco": "RUA BRIGADEIRO GALVÃO, 540/564",
+    "bairro-cidade-cep": "BARRA FUNDA, SÃO PAULO, 01151-000"
+  },
+
+  "2385553-2468102": {
+    "local": "025-UNINOVE - CAMPUS MEMORIAL - BLOCO D",
+    "endereco": "RUA DEPUTADO SALVADOR JULIANELLI, S/N",
+    "bairro-cidade-cep": "METRÔ BARRA FUNDA, SÃO PAULO, 01156-080"
+  },
+
+  "2490006-2497876": {
+    "local": "026-COLÉGIO DANTE ALIGHIERI - EDIFÍCIO GALILEU",
+    "endereco": "ALAMEDA JAÚ, 1061",
+    "bairro-cidade-cep": "METRÔ TRIANON, SÃO PAULO, 01420-003"
+  },
+
+  "2497883-2514756": {
+    "local": "027-COLÉGIO SÃO LUIS",
+    "endereco": "RUA HADDOCK LOBO, 400",
+    "bairro-cidade-cep": "METRÔ CONSOLAÇÃO, SÃO PAULO, 01414-902"
+  },
+
+  "2514763-2629242": {
+    "local": "028-UNIP - CAMPUS PARAÍSO",
+    "endereco": "RUA VERGUEIRO, 1211",
+    "bairro-cidade-cep": "PARAÍSO, SÃO PAULO, 01504-000"
+  },
+
+  "2651018-2667823": {
+    "local": "029-UNIP - CAMPUS VERGUEIRO",
+    "endereco": "RUA APENINOS, 267",
+    "bairro-cidade-cep": "ACLIMAÇÃO, SÃO PAULO, 01533-000"
+  },
+
+  "2667848-2770168": {
+    "local": "030-FMU - FACULDADES METROPOLITANAS UNIDAS - CAMPUS LIBERDADE",
+    "endereco": "AVENIDA LIBERDADE, 899",
+    "bairro-cidade-cep": "LIBERDADE, SÃO PAULO, 01503-001"
+  },
+
+  "2792008-2819520": {
+    "local": "031-UNINOVE - CAMPUS VERGUEIRO",
+    "endereco": "RUA VERGUEIRO, 235/249",
+    "bairro-cidade-cep": "METRÔ SÃO JOAQUIM, SÃO PAULO, 01504-001"
+  },
+
+  "2819537-2824662": {
+  }
+    PRÉDIO 36",
+    "endereco": "RUA AGOSTINHO RODRIGUES FILHO, 201",
+    "bairro-cidade-cep": "VILA MARIANA, SÃO PAULO, 04026-040"
+  "local": "032-FMU - FACULDADES METROPOLITANAS UNIDAS - CAMPUS VILA MARIANA -,
+
+  "2824670-2833558": {
+  }
+    PRÉDIO 35",
+    "endereco": "RUA LEANDRO DUPRÉ, 657",
+    "bairro-cidade-cep": "VILA MARIANA, SÃO PAULO, 04025-013"
+  "local": "033-FMU - FACULDADES METROPOLITANAS UNIDAS - CAMPUS VILA MARIANA -,
+
+  "2833565-2961262": {
+    "local": "034-CENTRO UNIVERSITÁRIO BELAS ARTES DE SÃO PAULO",
+    "endereco": "RUA DR ÁLVARO ALVIM, 76 / 90",
+    "bairro-cidade-cep": "VILA MARIANA, SÃO PAULO, 04018-010"
+  },
+
+  "2983006-2991978": {
+    "local": "035-UNIP - CAMPUS LUIS GOES -  PRÉDIO 1",
+    "endereco": "RUA LUÍS GOES, 2211",
+    "bairro-cidade-cep": "MIRANDÓPOLIS, SÃO PAULO, 04043-200"
+  },
+
+  "2991985-3004051": {
+    "local": "036-COLÉGIO SANTA AMÁLIA",
+    "endereco": "AVENIDA JABAQUARA, 1673",
+    "bairro-cidade-cep": "SAÚDE, SÃO PAULO, 04045-003"
+  },
+
+  "3004069-3082114": {
+    "local": "037-UNIP - CAMPUS BACELAR - PRÉDIO 1",
+    "endereco": "RUA DR BACELAR, 1212",
+    "bairro-cidade-cep": "VILA CLEMENTINO, SÃO PAULO, 04026-002"
+  },
+
+  "3104009-3126265": {
+    "local": "038-UNIP - CAMPUS PAZ - PRÉDIO III",
+    "endereco": "RUA DA PAZ, 797",
+    "bairro-cidade-cep": "CHÁCARA SANTO ANTÔNIO, SÃO PAULO, 04713-001"
+  },
+
+  "3126272-3143421": {
+    "local": "039-FMU - FACULDADES METROPOLITANAS UNIDAS - CAMPUS SANTO AMARO",
+    "endereco": "AVENIDA SANTO AMARO, 1239",
+    "bairro-cidade-cep": "SANTO AMARO, SÃO PAULO, 04505-002"
+  },
+
+  "3143439-3164935": {
+    "local": "040-UNINOVE - CAMPUS SANTO AMARO",
+    "endereco": "RUA AMADOR BUENO, 389/491",
+    "bairro-cidade-cep": "SANTO AMARO, SÃO PAULO, 04752-900"
+  },
+
+  "3164942-3333374": {
+    "local": "041-UNIP - CHÁCARA SANTO ANTÔNIO - CAMPUS III",
+    "endereco": "RUA CANCIONEIRO POPULAR, 210",
+    "bairro-cidade-cep": "CHÁCARA SANTO ANTÔNIO, SÃO PAULO, 04710-000"
+  },
+
+  "3355004-3379020": {
+    "local": "042-UNIP - CAMPUS MARQUÊS",
+    "endereco": "AVENIDA MARQUES DE SÃO VICENTE, 3001",
+    "bairro-cidade-cep": "ÁGUA BRANCA, SÃO PAULO, 05036-040"
+  },
+
+  "3379037-3484173": {
+    "local": "043-FACULDADES INTEGRADAS RIO BRANCO",
+    "endereco": "AVENIDA JOSÉ MARIA DE FARIA, 111",
+    "bairro-cidade-cep": "LAPA, SÃO PAULO, 05038-190"
+  },
+
+  "3506004-3519432": {
+    "local": "044-UNIVERSIDADE CRUZEIRO DO SUL - CAMPUS ANÁLIA FRANCO",
+    "endereco": "AVENIDA REGENTE FEIJO, 1295",
+    "bairro-cidade-cep": "TATUAPÉ, SÃO PAULO, 03342-000"
+  },
+
+  "3519440-3542769": {
+    "local": "045-FACULDADE E COLÉGIO DRUMMOND - CAMPUS TATUAPÉ",
+    "endereco": "RUA PROF PEDREIRA DE FREITAS, 401/415",
+    "bairro-cidade-cep": "TATUAPÉ, SÃO PAULO, 03312-052"
+  },
+
+  "3542776-3568034": {
+    "local": "046-UNICID - UNIV CIDADE DE SÃO PAULO - BL ALFA",
+    "endereco": "RUA CESARIO GALENO, 475",
+    "bairro-cidade-cep": "METRÔ CARRÃO, SÃO PAULO, 03071-000"
+  },
+
+  "3568041-3735309": {
+    "local": "047-UNIP - CAMPUS TATUAPÉ",
+    "endereco": "RUA ANTÔNIO MACEDO, 505",
+    "bairro-cidade-cep": "PARQUE SÃO JORGE, SÃO PAULO, 03087-040"
+  },
+
+  "3757000-3767090": {
+    "local": "048-UNIVERSIDADE SÃO JUDAS - 3º ANDAR - UNIDADE MOOCA",
+    "endereco": "RUA TAQUARI, 546",
+    "bairro-cidade-cep": "MOOCA, SÃO PAULO, 03166-000"
+  },
+
+  "3767118-3780375": {
+    "local": "049-UNIVERSIDADE SÃO JUDAS - 4º ANDAR - UNIDADE MOOCA",
+    "endereco": "RUA TAQUARI, 546",
+    "bairro-cidade-cep": "MOOCA, SÃO PAULO, 03166-000"
+  },
+
+  "3780382-3856104": {
+    "local": "050-E.E. PROF. ANTÔNIO FIRMINO DE PROENÇA",
+    "endereco": "RUA DA MOOCA, 363",
+    "bairro-cidade-cep": "MOOCA, SÃO PAULO, 03103-000"
+  },
+
+  "3878008-3891062": {
+    "local": "051-FUNDAÇÃO SANTO ANDRÉ - FAFIL",
+    "endereco": "AVENIDA PRÍNCIPE DE GALES, 821",
+    "bairro-cidade-cep": "VILA PRÍNCIPE DE GALES, SANTO ANDRÉ, 09060-650"
+  },
+
+  "3891070-3903714": {
+    "local": "052-FUNDAÇÃO SANTO ANDRÉ - FAENG",
+    "endereco": "AVENIDA PRÍNCIPE DE GALES, 821",
+    "bairro-cidade-cep": "VILA PRÍNCIPE DE GALES, SANTO ANDRÉ, 09060-650"
+  },
+
+  "3903721-3997119": {
+    "local": "053-FUNDAÇÃO SANTO ANDRÉ - FAECO",
+    "endereco": "AVENIDA PRÍNCIPE DE GALES, 821",
+    "bairro-cidade-cep": "VILA PRÍNCIPE DE GALES, SANTO ANDRÉ, 09060-650"
+  },
+
+  "4019000-4118054": {
+    "local": "054-USCS - UNIVERSIDADE MUN DE SÃO CAETANO DO SUL (CAMPUS I)",
+    "endereco": "AVENIDA GOIÁS, 3400",
+    "bairro-cidade-cep": "BARCELONA, SÃO CAETANO DO SUL, 09550-051"
+  },
+
+  "4140008-4148841": {
+    "local": "055-FASB - FACULDADE DE SÃO BERNARDO DO CAMPO - UNIDADE II",
+    "endereco": "RUA JOÃO PESSOA, 601",
+    "bairro-cidade-cep": "CENTRO, SÃO BERNARDO DO CAMPO, 09715-000"
+  },
+
+  "4148859-4157819": {
+    "local": "056-COLÉGIO ÁBACO",
+    "endereco": "AVENIDA JOÃO FIRMINO, 1099",
+    "bairro-cidade-cep": "ASSUNÇÃO, SÃO BERNARDO DO CAMPO, 09810-260"
+  },
+
+  "4157826-4239091": {
+    "local": "057-COLÉGIO PETRÓPOLIS",
+    "endereco": "AVENIDA PERY RONCHETTI, 890",
+    "bairro-cidade-cep": "NOVA PETRÓPOLIS, SÃO BERNARDO DO CAMPO, 09771-001"
+  },
+
+  "4261006-4360036": {
+    "local": "058-FAD - FACULDADE DIADEMA",
+    "endereco": "AVENIDA ALDA, 831",
+    "bairro-cidade-cep": "CENTRO, DIADEMA, 09910-170"
+  },
+
+  "4382004-4390435": {
+    "local": "059-UNIVERSIDADE CRUZEIRO DO SUL - CAMPUS SÃO MIGUEL - BL C",
+    "endereco": "AVENIDA DR. USSIEL CIRILO, 225",
+    "bairro-cidade-cep": "VILA JACUÍ, SÃO PAULO, 08060-070"
+  },
+
+  "4390442-4481041": {
+    "local": "060-ESCOLA DE ARTES, CIÊNCIAS E HUMANIDADES - USP LESTE",
+    "endereco": "RUA ARLINDO BÉTTIO, 1000",
+    "bairro-cidade-cep": "ERMELINO MATARAZZO, SÃO PAULO, 03828-000"
+  },
+
+  "4503018-4512412": {
+    "local": "061-ESCOLA ESTADUAL CONSELHEIRO CRISPINIANO",
+    "endereco": "AVENIDA ARMINDA DE LIMA, 57",
+    "bairro-cidade-cep": "VILA PROGRESSO, GUARULHOS, 07095-010"
+  },
+
+  "4512420-4602120": {
+    "local": "062-UNG - UNIVERSIDADE DE GUARULHOS",
+    "endereco": "PRAÇA TEREZA CRISTINA, 88",
+    "bairro-cidade-cep": "CENTRO, GUARULHOS, 07023-070"
+  },
+
+  "4624009-4723046": {
+    "local": "063-UMC - UNIVERSIDADE DE MOGI DAS CRUZES  - P1",
+    "endereco": "AVENIDA DR. CÂNDIDO XAVIER DE ALMEIDA SOUZA, 200",
+    "bairro-cidade-cep": "CENTRO CÍVICO, MOGI DAS CRUZES, 08780-911"
+  },
+
+  "4745007-4757988": {
+    "local": "064-COLÉGIO DIVINO SALVADOR",
+    "endereco": "RUA GENERAL CARNEIRO, 105",
+    "bairro-cidade-cep": "VILA ARENS, JUNDIAÍ, 13202-590"
+  },
+
+  "4758008-4864082": {
+    "local": "065-UNIP - JUNDIAÍ",
+    "endereco": "AVENIDA ARMANDO GIASSETTI, 577 - TREVO ITU/ITATIBA",
+    "bairro-cidade-cep": "VILA HORTOLÂNDIA, JUNDIAÍ, 13214-525"
+  },
+
+  "4886004-4889744": {
+    "local": "066-ETEC PEDRO FERREIRA ALVES",
+    "endereco": "RUA ARIOVALDO SILVEIRA FRANCO, 237",
+    "bairro-cidade-cep": "JARDIM 31 DE MARÇO, MOGI MIRIM, 13801-005"
+  },
+
+  "4889751-4894531": {
+    "local": "067-FATEC - MOGI MIRIM",
+    "endereco": "RUA ARIOVALDO SILVEIRA FRANCO, 567",
+    "bairro-cidade-cep": "JARDIM 31 DE MARÇO, MOGI MIRIM, 13801-005"
+  },
+
+  "4894549-4985027": {
+    "local": "068-FACULDADE SANTA LÚCIA",
+    "endereco": "RUA DR. ULHÔA CINTRA, 351",
+    "bairro-cidade-cep": "CENTRO, MOGI MIRIM, 13800-000"
+  },
+
+  "5007007-5018861": {
+    "local": "069-UNIP - CAMPUS SWIFT - BLOCO B",
+    "endereco": "AVENIDA COMENDADOR ENZO FERRARI, 280",
+    "bairro-cidade-cep": "SWIFT, CAMPINAS, 13043-900"
+  },
+
+  "5018879-5034328": {
+    "local": "070-UNIP - CAMPUS SWIFT - BLOCO C",
+    "endereco": "AVENIDA COMENDADOR ENZO FERRARI, 280",
+    "bairro-cidade-cep": "SWIFT, CAMPINAS, 13043-900"
+  },
+
+  "5034335-5048979": {
+    "local": "071-UNIP - CAMPUS SWIFT - BLOCO D",
+    "endereco": "AVENIDA COMENDADOR ENZO FERRARI, 280",
+    "bairro-cidade-cep": "SWIFT, CAMPINAS, 13043-900"
+  },
+
+  "5048986-5065359": {
+    "local": "072-UNIP - CAMPUS SWIFT - BLOCO E",
+    "endereco": "AVENIDA COMENDADOR ENZO FERRARI, 280",
+    "bairro-cidade-cep": "SWIFT, CAMPINAS, 13043-900"
+  },
+
+  "5065366-5078844": {
+    "local": "073-COLÉGIO SAGRADO CORAÇÃO DE JESUS",
+    "endereco": "AVENIDA DR MANUEL AFONSO FERREIRA, 245",
+    "bairro-cidade-cep": "PQ NOVA CAMPINAS, CAMPINAS, 13100-029"
+  },
+
+  "5078851-5090049": {
+    "local": "074-ESCOLA SÃO JOSÉ",
+    "endereco": "AVENIDA  PADRE ALMEIDA GARRET, 267",
+    "bairro-cidade-cep": "JD N SRA AUXILIADORA, CAMPINAS, 13087-290"
+  },
+
+  "5090056-5276317": {
+    "local": "075-LICEU NOSSA SENHORA AUXILIADORA",
+    "endereco": "RUA BARONESA GERALDO DE RESENDE, 330",
+    "bairro-cidade-cep": "JD GUANABARA, CAMPINAS, 13075-270"
+  },
+
+  "5298018-5316352": {
+    "local": "076-UNISO - CAMPUS RAPOSO - BLOCO F",
+    "endereco": "RODOVIA  RAPOSO TAVARES, KM 92,5",
+    "bairro-cidade-cep": "VILA ARTURA, SOROCABA, 18023-000"
+  },
+
+  "5316360-5417127": {
+    "local": "077-UNIP - CAMPUS SOROCABA",
+    "endereco": "AVENIDA INDEPENDÊNCIA, 210",
+    "bairro-cidade-cep": "ÉDEN, SOROCABA, 18087-101"
+  },
+
+  "5439006-5453917": {
+    "local": "078-UNIVERSIDADE SANTA CECILIA - UNISANTA",
+    "endereco": "RUA OSWALDO CRUZ, 277",
+    "bairro-cidade-cep": "BOQUEIRÃO, SANTOS, 11045-907"
+  },
+
+  "5453924-5538140": {
+    "local": "079-UNIP SANTOS - CAMPUS II - RANGEL - BLOCO 7",
+    "endereco": "AVENIDA FRANCISCO MANOEL, S/N",
+    "bairro-cidade-cep": "VILA MATHIAS, SANTOS, 11045-300"
+  },
+
+  "5560004-5573261": {
+    "local": "080-UNIVAP - FACULDADE DE DIREITO - CENTRO",
+    "endereco": "PRAÇA CÂNDIDO DIAS CASTEJON, 116",
+    "bairro-cidade-cep": "CENTRO, S JOSÉ DOS CAMPOS, 12245-720"
+  },
+
+  "5573279-5578511": {
+    "local": "081-UNIVAP - CAMPUS AQUARIUS",
+    "endereco": "RUA DR TERTULIANO DELPHIM JUNIOR, 181",
+    "bairro-cidade-cep": "JARDIM AQUARIUS, S JOSÉ DOS CAMPOS, 12246-080"
+  },
+
+  "5578529-5586127": {
+    "local": "082-EE PROF ESTEVAM FERRI",
+    "endereco": "RUA CANTÍDIO MIRAGAIA, 100",
+    "bairro-cidade-cep": "MONTE CASTELO, S JOSÉ DOS CAMPOS, 12215-110"
+  },
+
+  "5586134-5593723": {
+    "local": "083-EE JOÃO CURSINO",
+    "endereco": "AVENIDA FRANCISCO JOSÉ LONGO, 782",
+    "bairro-cidade-cep": "JARDIM SÃO DIMAS, S JOSÉ DOS CAMPOS, 12245-001"
+  },
+
+  "5593748-5749115": {
+    "local": "084-COLÉGIO NOSSA SENHORA APARECIDA",
+    "endereco": "RUA CORONEL JOSÉ MONTEIRO, 621",
+    "bairro-cidade-cep": "CENTRO, S JOSÉ DOS CAMPOS, 12210-140"
+  },
+
+  "5771001-5782970": {
+    "local": "085-UNIVERSIDADE DE TAUBATÉ - UNITAU",
+    "endereco": "RUA EXPEDICIONÁRIO ERNESTO PEREIRA, S/N - PORTÃO 2",
+    "bairro-cidade-cep": "CENTRO, TAUBATÉ, 12020-330"
+  },
+
+  "5892000-5991047": {
+    "local": "086-UNISAL - CENTRO UNIV SALESIANO DE SÃO PAULO",
+    "endereco": "RUA DOM BOSCO, 284",
+    "bairro-cidade-cep": "CENTRO, LORENA, 12600-100"
+  },
+
+  "6013002-6112018": {
+    "local": "087-FACULDADES INTEGRADAS ANTÔNIO EUFRÁSIO DE TOLEDO",
+    "endereco": "PRAÇA RAUL FURQUIM, 9",
+    "bairro-cidade-cep": "VILA FURQUIM, PRESIDENTE PRUDENTE, 19030-430"
+  },
+
+  "6134018-6144546": {
+    "local": "088-BLOCO 2 - PRÉDIO DA FACULDADE DE ECONOMIA - ITE",
+    "endereco": "RUA ANTÔNIO DA SILVA SOUTO, QUADRA 1, S/N",
+    "bairro-cidade-cep": "VILA PACÍFICO, BAURU, 17050-510"
+  },
+
+  "6144553-6253030": {
+    "local": "089-BLOCO 5 - PRÉDIO DA FACULDADE DE DIREITO - ITE",
+    "endereco": "RUA ANTÔNIO DA SILVA SOUTO, QUADRA 2, S/N",
+    "bairro-cidade-cep": "VILA PACÍFICO, BAURU, 17050-510"
+  },
+
+  "6275008-6374006": {
+    "local": "090-FUNDAÇÃO EDUCACIONAL DR. RAUL BAUAB - BLOCOS AZUL/VERDE",
+    "endereco": "RUA TENENTE NAVARRO, 642",
+    "bairro-cidade-cep": "CENTRO, JAÚ, 17207-310"
+  },
+
+  "6396006-6495036": {
+    "local": "091-FUNDAÇÃO DE ENSINO EURÍPEDES SOARES DA ROCHA - UNIVEM",
+    "endereco": "AVENIDA HYGINO MUZZI FILHO, 529",
+    "bairro-cidade-cep": "CAMPUS UNIVERSITÁRIO, MARÍLIA, 17525-901"
+  },
+
+  "6517002-6528657": {
+    "local": "092-UNIMEP - CAMPUS TAQUARAL - BLOCO 3",
+    "endereco": "RODOVIA DO AÇÚCAR, KM 156",
+    "bairro-cidade-cep": "TAQUARAL, PIRACICABA, 13423-170"
+  },
+
+  "6528664-6540218": {
+    "local": "093-UNIMEP - CAMPUS TAQUARAL - BLOCO 5",
+    "endereco": "RODOVIA DO AÇÚCAR, KM 156",
+    "bairro-cidade-cep": "TAQUARAL, PIRACICABA, 13423-170"
+  },
+
+  "6540225-6549167": {
+    "local": "094-UNIMEP - CAMPUS TAQUARAL - BLOCO 7",
+    "endereco": "RODOVIA DO AÇÚCAR, KM 156",
+    "bairro-cidade-cep": "TAQUARAL, PIRACICABA, 13423-170"
+  },
+
+  "6549174-6686041": {
+    "local": "095-ESALQ - USP",
+    "endereco": "AVENIDA PÁDUA DIAS, 11",
+    "bairro-cidade-cep": "AGRONOMIA, PIRACICABA, 13418-900"
+  },
+
+  "6708018-6847046": {
+    "local": "096-UNIP - CAMPUS LIMEIRA",
+    "endereco": "RUA MIGUEL GUIDOTTI, 405",
+    "bairro-cidade-cep": "PARQUE EGISTO RAGAZZO, LIMEIRA, 13485-342"
+  },
+
+  "6869007-6878045": {
+    "local": "097-EDUCATIVA - COOP EDUCACIONAL DE SÃO CARLOS",
+    "endereco": "RUA ARISTIDES DE SANTI, 11",
+    "bairro-cidade-cep": "PORTAL DO SOL, SÃO CARLOS, 13571-150"
+  },
+
+  "6878052-6885278": {
+    "local": "098-ESCOLA DE ENGENHARIA DE SÃO CARLOS - BLOCO D",
+    "endereco": "AVENIDA TRABALHADOR SÃO-CARLENSE, 400",
+    "bairro-cidade-cep": "CENTRO, SÃO CARLOS, 13566-590"
+  },
+
+  "6885285-6896463": {
+    "local": "099-UNICEP - CENTRO UNIV CENTRAL PAULISTA MIGUEL PETRONI - BLOCOS B2 E B4",
+    "endereco": "RUA MIGUEL PETRONI, 5111",
+    "bairro-cidade-cep": "JD CENTENÁRIO, SÃO CARLOS, 13563-470"
+  },
+
+  "6896488-6988140": {
+    "local": "100-UNICEP - CENTRO UNIV CENTRAL PAULISTA MIGUEL PETRONI - BLOCOS B3, B5 E B6",
+    "endereco": "RUA MIGUEL PETRONI, 5111",
+    "bairro-cidade-cep": "JD CENTENÁRIO, SÃO CARLOS, 13563-470"
+  },
+
+  "7010009-7023437": {
+    "local": "101-UNILAGO - UNIÃO DAS FAC DOS GRANDES LAGOS",
+    "endereco": "RUA DR EDUARDO NIELSEN, 960",
+    "bairro-cidade-cep": "JD AEROPORTO, S JOSÉ DO RIO PRETO, 15030-070"
+  },
+
+  "7023444-7034437": {
+    "local": "102-UNORP - CENTRO UNIV DO NORTE PAULISTA",
+    "endereco": "RUA IPIRANGA, 3460",
+    "bairro-cidade-cep": "JD ALTO RIO PRETO, S JOSÉ DO RIO PRETO, 15020-040"
+  },
+
+  "7034444-7179137": {
+    "local": "103-UNIP - CAMPUS II - SÃO JOSÉ DO RIO PRETO",
+    "endereco": "AVENIDA JUSCELINO KUBITSCHEK DE OLIVEIRA S/N",
+    "bairro-cidade-cep": "JD TARRAF II, S JOSÉ DO RIO PRETO, 15091-450"
+  },
+
+  "7201007-7300012": {
+    "local": "104-CENTRO UNIVERSITÁRIO DA FUNDAÇÃO EDUCACIONAL DE BARRETOS",
+    "endereco": "AVENIDA PROFESSOR ROBERTO FRADE MONTE, 389",
+    "bairro-cidade-cep": "AEROPORTO, BARRETOS, 14783-226"
+  },
+
+  "7322005-7326570": {
+    "local": "105-FUNDAÇÃO EDUCACIONAL DE FERNANDÓPOLIS",
+    "endereco": "AVENIDA TEOTÔNIO VILELA, S/N",
+    "bairro-cidade-cep": "CAMPUS UNIVERSITÁRIO, FERNANDÓPOLIS, 15600-000"
+  },
+
+  "7443003-7449270": {
+    "local": "106-EE PIRASSUNUNGA",
+    "endereco": "RUA JOSÉ BONIFACIO, 325",
+    "bairro-cidade-cep": "CENTRO, PIRASSUNUNGA, 13630-010"
+  },
+
+  "7449287-7454715": {
+    "local": "107-COLÉGIO JOHN KENNEDY",
+    "endereco": "RUA MAJOR FELICIANO, 750",
+    "bairro-cidade-cep": "BAIRRO DA RAIA, PIRASSUNUNGA, 13634-034"
+  },
+
+  "7454722-7562032": {
+    "local": "108-FACULDADE DE TECNOLOGIA CIÊNCIAS E EDUCAÇÃO-FATECE",
+    "endereco": "AVENIDA PAINGUÁS, 225/243",
+    "bairro-cidade-cep": "JD URUPÊS, PIRASSUNUNGA, 13630-250"
+  },
+
+  "7584018-7588874": {
+    "local": "109-USP - FACULDADE DE DIREITO",
+    "endereco": "AVENIDA BANDEIRANTES, 3900",
+    "bairro-cidade-cep": "MONTE ALEGRE, RIBEIRÃO PRETO, 14040-906"
+  },
+
+  "7588881-7596497": {
+    "local": "110-USP - FACULDADE DE ECONOMIA ADM E CONTABILIDADE DE RIBEIRÃO PRETO",
+    "endereco": "AVENIDA BANDEIRANTES, 3900",
+    "bairro-cidade-cep": "MONTE ALEGRE, RIBEIRÃO PRETO, 14040-905"
+  },
+
+  "7596508-7605359": {
+    "local": "111-EE OTONIEL MOTA",
+    "endereco": "RUA PRUDENTE DE MORAES, 764",
+    "bairro-cidade-cep": "CENTRO, RIBEIRÃO PRETO, 14015-100"
+  },
+
+  "7605366-7615684": {
+    "local": "112-COLÉGIO MARISTA DE RIBEIRÃO PRETO",
+    "endereco": "RUA BERNARDINO DE CAMPOS, 550",
+    "bairro-cidade-cep": "HIGIENÓPOLIS, RIBEIRÃO PRETO, 14015-130"
+  },
+
+  "7615691-7629456": {
+    "local": "113-UNAERP - BLOCO B",
+    "endereco": "AVENIDA COSTÁBILE ROMANO, 2201",
+    "bairro-cidade-cep": "RIBEIRÂNIA, RIBEIRÃO PRETO, 14096-900"
+  },
+
+  "7629463-7650475": {
+    "local": "114-UNAERP - BLOCOS G / H",
+    "endereco": "AVENIDA COSTÁBILE ROMANO, 2201",
+    "bairro-cidade-cep": "RIBEIRÂNIA, RIBEIRÃO PRETO, 14096-900"
+  },
+
+  "7650482-7671544": {
+    "local": "115-UNIP - CAMPUS RIBEIRÃO PRETO - BLOCO A",
+    "endereco": "AVENIDA CARLOS CONSONI, 10",
+    "bairro-cidade-cep": "JD CANADÁ, RIBEIRÃO PRETO, 14024-270"
+  },
+
+  "7671551-7688320": {
+    "local": "116-UNIP - CAMPUS RIBEIRÃO PRETO - BLOCO B",
+    "endereco": "AVENIDA CARLOS CONSONI, 10",
+    "bairro-cidade-cep": "JD CANADÁ, RIBEIRÃO PRETO, 14024-270"
+  },
+
+  "7688337-7873485": {
+    "local": "117-CENTRO UNIVERSITÁRIO BARÃO DE MAUÁ - UNIDADE CENTRAL",
+    "endereco": "RUA RAMOS DE AZEVEDO, 423",
+    "bairro-cidade-cep": "JARDIM PAULISTA, RIBEIRÃO PRETO, 14090-180"
+  },
+
+  "7895001-7903512": {
+    "local": "118-UNI-FACEF - PRÉDIO I",
+    "endereco": "AVENIDA MAJOR NICÁCIO, 2433",
+    "bairro-cidade-cep": "BAIRRO SÃO JOSÉ, FRANCA, 14401-135"
+  },
+
+  "7903520-7994049": {
+    "local": "119-UNI-FACEF - PRÉDIO II",
+    "endereco": "AVENIDA ISMAEL ALONSO Y ALONSO, 2400",
+    "bairro-cidade-cep": "BAIRRO SÃO JOSÉ, FRANCA, 14403-430"
+  }
+}
