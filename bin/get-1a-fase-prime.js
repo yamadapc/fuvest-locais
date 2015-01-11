@@ -1,18 +1,33 @@
 'use strict';
 var fs = require('fs');
+var path = require('path');
 var Promise = require('bluebird');
 var cheerio = require('cheerio');
-var colors = require('colors');
+require('colors');
 var _ = require('lodash');
 var request = require('superagent');
 
 Promise.promisifyAll(request.Request.prototype);
 
+var CWD = process.cwd();
 var ALPHABET = _.map(_.range(97, 123), function(n) {
     return String.fromCharCode(n);
 });
 
-var completeResults = {};
+var cache;
+try {
+  cache = fs.readFileSync(path.join(CWD, 'cache.json'));
+} catch(err) {
+  cache = {};
+}
+
+process.on('exit', function() {
+  fs.writeFileSync(path.join(CWD, 'cache.json'), JSON.stringify(cache, null, 2));
+});
+
+var completeResults = _.reduce(cache.alreadyHitQueries || {}, function(m, v) {
+  return _.extend(m, v);
+}, {});
 var pendingRequests = {};
 
 var persistInterval = setInterval(function() {
@@ -23,18 +38,28 @@ var persistInterval = setInterval(function() {
   );
 
   try {
-    fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
-    fs.writeFileSync('pending-requests.json', JSON.stringify(pendingRequests, null, 2));
+    fs.writeFileSync(
+      path.join(CWD, 'results.json'),
+      JSON.stringify(completeResults, null, 2)
+    );
+
+    fs.writeFileSync(
+      path.join(CWD, 'pending-requests.json'),
+      JSON.stringify(pendingRequests, null, 2)
+    );
   } catch(err) {
     console.log('[ERROR]'.red + err.message);
   }
-}, 10000);
+}, 5000);
 
 getAllPeople('', 141888)
   .then(function(/*results*/) {
     console.log('DONE'.green);
     clearTimeout(persistInterval);
-    fs.writeFileSync('results.json', JSON.stringify(completeResults, null, 2));
+    fs.writeFileSync(
+      path.join(CWD, 'results.json'),
+      JSON.stringify(completeResults, null, 2)
+    );
     process.exit(0);
   });
 
@@ -57,9 +82,13 @@ function getAllPeople(startPrefix/*, knownLimit */) {
 }
 
 function makeQuery(q) {
+  if(cache.alreadyHitQueries[q]) {
+    return Promise.resolve(cache.alreadyHitQueries[q]);
+  }
+
   if(_.size(pendingRequests) > 50) {
-    console.log('[WAITING] '.yellow + 'More than 50 requests are pending; waiting 10s');
-    return wait(10000).then(function() {
+    console.log('[WAITING] '.yellow + 'More than 50 requests are pending; waiting 0.2s');
+    return wait(200).then(function() {
       return makeQuery(q);
     });
   }
@@ -77,7 +106,11 @@ function makeQuery(q) {
       function(res) {
         delete pendingRequests[q];
         console.log('[HTTP]'.magenta + ' http://www.fuvest.br/b/locexa2f.php?s=' + q);
-        return parseResponse(q, res.text);
+
+        var results = parseResponse(q, res.text);
+
+        cache.alreadyHitQueries[q] = results;
+        return results;
       },
       function(err) {
         delete pendingRequests[q];
