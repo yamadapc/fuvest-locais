@@ -1,0 +1,29 @@
+html, body {
+  font-family: Helvetica;
+  height: 100%;
+}
+
+#map-canvas {
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.logger {
+  border: solid 1px #ccc;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 0.6em;
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  width: 19%;
+}
+
+.wrapper {
+  height: 96%;
+  width: 100%;
+}

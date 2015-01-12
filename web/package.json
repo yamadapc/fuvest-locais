@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "npm run browserify && node server.js",
+    "browserify": "mkdir -p build && browserify js/index.js -o build/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "dependencies": {
-    "express": "^4.10.7"
+    "browserify": "^8.1.0",
+    "express": "^4.10.7",
+    "jquery": "^2.1.3",
+    "lodash": "^2.4.1"
   }
 }
