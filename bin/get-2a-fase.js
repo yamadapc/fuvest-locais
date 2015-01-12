@@ -6,10 +6,17 @@ var request = require('superagent');
 
 Promise.promisifyAll(request.Request.prototype);
 
-fetchNames()
-  .then(function(entries) {
-    console.log(JSON.stringify(entries, undefined, 2));
-  });
+if(!module.parent) {
+  main();
+}
+
+function main() {
+  fetchNames()
+    .then(function(entries) {
+      console.log(JSON.stringify(entries, undefined, 2));
+    });
+}
+exports.main = main;
 
 function fetchNames() {
   return Promise
@@ -21,6 +28,7 @@ function fetchNames() {
     .map(parseEntries)
     .then(_.flatten);
 }
+exports.fetchNames = fetchNames;
 
 function fetchLetter(letter) {
   var url = 'http://www.fuvest.br/vest2015/listconv/cham' +
@@ -33,6 +41,7 @@ function fetchLetter(letter) {
       return res.text;
     });
 }
+exports.fetchLetter = fetchLetter;
 
 function parseEntries(html) {
   var $ = cheerio.load(html);
@@ -43,6 +52,7 @@ function parseEntries(html) {
 
   return entries.map(parseEntry);
 }
+exports.parseEntries = parseEntries;
 
 function parseEntry(entry) {
   var cpf = entry.split(' ')[0];
@@ -55,3 +65,4 @@ function parseEntry(entry) {
     nome: nome,
   };
 }
+exports.parseEntry = parseEntry;
