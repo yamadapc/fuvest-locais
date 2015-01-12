@@ -12,7 +12,7 @@ if(!module.parent) {
 }
 
 function main(args) {
-  if(args.length < 2) {
+  if(args.length < 3) {
     console.log(
       'Usage: merge-data <first-stage-people-file> <second-stage-people-file>' +
       ' <output-file>'
@@ -23,23 +23,27 @@ function main(args) {
   var results1 = require(toAbsolute(args[0]));
   var people2 = require(toAbsolute(args[1]));
 
-  var pg = new ProgressBar(' Done with [:bar] :percent :etas', {
+  var pg = new ProgressBar(' Merging [:bar] :percent :etas', {
     complete: '=',
     incomplete: ' ',
     width: 80,
     total: _.size(results1),
   });
 
-  var people1 = _.map(results1, function(person, inscricao) {
+  var people1 = _.map(results1, function(nome, inscricao) {
     pg.tick();
-    return _.extend(person, {
+    var p2 = _.find(people2, { inscricao: inscricao });
+
+    return {
+      nome: nome,
       inscricao: inscricao,
-      passou: _.some(people2, { inscricao: inscricao }),
-    });
+      cpf: p2 && p2.cpf,
+      passou: !!p2,
+    };
   });
 
-  console.log('Writting to output file ' + args[3] + '...');
-  fs.writeFileSync(toAbsolute(args[3]), JSON.stringify(people1, null, 2));
+  console.log('Writting to output file ' + args[2] + '...');
+  fs.writeFileSync(toAbsolute(args[2]), JSON.stringify(people1, null, 2));
   console.log('Done!');
 }
 
