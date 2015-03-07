@@ -1,6 +1,6 @@
 fuvest-locais
 =============
-Web scrapping and data analysis for the University of São Paulo's acceptance
+Web scrapping and data analysis of the University of São Paulo's acceptance
 test. It's a project with [@renzocom](https://github.com/renzocom) to try to
 discover possible geographical (within the city's regions - supposedly related
 to wealth) biases on the probability of a candidate to be accepted to USP.
