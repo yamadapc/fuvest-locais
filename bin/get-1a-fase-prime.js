@@ -18,7 +18,9 @@ var cache;
 try {
   cache = fs.readFileSync(path.join(CWD, 'cache.json'));
 } catch(err) {
-  cache = {};
+  cache = {
+    alreadyHitQueries: {},
+  };
 }
 
 process.on('exit', function() {
