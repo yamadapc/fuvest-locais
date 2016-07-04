@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.6.0",
+    "bluebird": "^3.3.3",
     "cheerio": "^0.18.0",
     "colors": "^1.0.3",
     "lodash": "^2.4.1",
